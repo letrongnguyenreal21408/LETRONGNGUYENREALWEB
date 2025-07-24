@@ -1,274 +1,553 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LETRONGNGUYENDEV</title>
+
+    <title>NGUYENDEV - Creative Profile</title>
+
     <link rel="stylesheet" href="style.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+     <!-- Thêm favicon ở đây -->
+
+    <link rel="icon" type="image/png" href="letrongnguyen-favicon.png">
+
+
+
 </head>
+
 <body>
+
     <!-- Particle Container -->
+
     <div class="particle-container"></div>
+
     
+
     <!-- Background Overlay -->
+
     <div class="background-overlay"></div>
+
     
+
     <!-- Mouse Trail Effect -->
+
     <canvas id="mouseTrail"></canvas>
 
+
+
     <!-- Main Content -->
+
     <div class="container">
+
         <div class="profile-card">
+
             <!-- Glowing Border Effect -->
+
             <div class="glow-effect"></div>
 
+
+
             <!-- Profile Header -->
+
             <div class="profile-header">
+
                 <div class="avatar-wrapper">
+
                     <div class="avatar-container">
+
                         <div class="avatar-frame">
+
                             <div class="avatar1">
+
                                 <img class="avatar" src="./tiendev.jpg" alt="">
+
                                 <img class="avt" src="./avt3.png" alt="">                                              
+
+
 
                             </div>                                          <div class="status-indicator online"></div>
 
 
 
+
+
+
+
                         </div>
+
                     </div>
+
                 </div>
+
+
 
                 <div class="profile-info">
+
                     <h1 class="name">LE TRONG NGUYEN 🔥</h1>
+
                     <div class="title-container">
+
                         <div class="typing-effect">
+
                             <span class="typed-text"></span>
+
                             <span class="cursor"></span>
+
                         </div>
+
                     </div>
+
                     
+
                     <!-- Custom Badge Section -->
+
                     <div class="badge-container">
+
                         <div class="badge">
+
                             <i class="fas fa-code"></i>
+
                             <span>Developer</span>
+
                         </div>
+
                         <div class="badge">
+
                             <i class="fas fa-paint-brush"></i>
+
                             <span>Designer</span>
+
                         </div>
+
                         <div class="badge">
+
                             <i class="fas fa-camera"></i>
+
                             <span>Creator</span>
+
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
+
 
             <!-- Interactive Social Links -->
+
             <div class="social-links-container">
+
                 <div class="social-links">
+
                     <a href="https://www.facebook.com/share/15avrWGPVd/" class="social-link" data-tooltip="Follow me on Facebook">
+
                         <div class="social-icon-wrapper">
+
                             <i class="fab fa-facebook-f"></i>
+
                             <div class="ripple-effect"></div>
+
                         </div>
+
                         <span class="social-text">Facebook</span>
+
                     </a>
+
                     
-                    <a href="https://www.tiktok.com/@chocolatedz_208?_t=ZS-8yCabSoC8cj&_r=1" class="social-link tiktok" data-tooltip="Check my TikTok">
+
+                    <a href="https://www.tiktok.com/@junsadboy208?_t=ZS-8xODl2MDIiP&_r=1" class="social-link tiktok" data-tooltip="Check my TikTok">
+
                         <div class="social-icon-wrapper">
+
                             <i class="fab fa-tiktok"></i>
+
                             <div class="ripple-effect"></div>
+
                         </div>
+
                         <span class="social-text">TikTok</span>
+
                     </a>
+
                     
+
                     <a href="#" class="social-link zalo" data-tooltip="Ủng hộ mình qua MoMo nha">
+
                         <div class="social-icon-wrapper">
+
                             <!-- <img width="40" src="./zalo.png" alt="Zalo" class="zalo-icon"> -->
+
                              <i class="fas fa-qrcode"></i>
+
                             <div class="ripple-effect"></div>
+
                         </div>
+
                         <span class="social-text">MoMo</span>
+
                     </a>
+
                 </div>
+
             </div>
+
+
 
             <!-- Animated Stats Section -->
+
             <div class="stats-section">
+
                 <div class="stat-item">
+
                     <div class="stat-circle">
+
                         <svg class="progress-ring">
+
                             <circle class="progress-ring-circle" cx="60" cy="60" r="54"></circle>
+
                         </svg>
+
                         <div class="stat-number" data-target="95">0</div>
+
                     </div>
+
                     <span class="stat-label">Creativity</span>
+
                 </div>
+
                 
+
                 <div class="stat-item">
+
                     <div class="stat-circle">
+
                         <svg class="progress-ring">
+
                             <circle class="progress-ring-circle" cx="60" cy="60" r="54"></circle>
+
                         </svg>
+
                         <div class="stat-number" data-target="88">0</div>
+
                     </div>
+
                     <span class="stat-label">Development</span>
+
                 </div>
+
                 
+
                 <div class="stat-item">
+
                     <div class="stat-circle">
+
                         <svg class="progress-ring">
+
                             <circle class="progress-ring-circle" cx="60" cy="60" r="54"></circle>
+
                         </svg>
+
                         <div class="stat-number" data-target="92">0</div>
+
                     </div>
+
                     <span class="stat-label">Design</span>
+
                 </div>
+
             </div>
+
+
 
             <!-- Interactive Timeline -->
+
             <div class="timeline-section">
+
                 <h2 class="section-title">Journey</h2>
+
                 <div class="timeline">
+
                     <div class="timeline-item">
+
                         <div class="timeline-dot"></div>
+
                         <div class="timeline-content">
+
                             <h3>2023</h3>
+
                             <p>Bắt đầu tìm tòi học code</p>
+
                         </div>
+
                     </div>
+
                     <div class="timeline-item">
+
                         <div class="timeline-dot"></div>
+
                         <div class="timeline-content">
+
                             <h3>2024</h3>
+
                             <p>Có kỹ năng code và học hỏi thêm</p>
+
                         </div>
+
                     </div>
+
                     <div class="timeline-item">
+
                         <div class="timeline-dot"></div>
+
                         <div class="timeline-content">
+
                             <h3>2025</h3>
+
                             <p>Creating Amazing Projects</p>
+
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
+
 
             <!-- Project Showcase -->
+
             <div class="project-section">
+
                 <h2 class="section-title">Featured Projects</h2>
+
                 <div class="project-grid">
+
                     <div class="project-card">
+
                         <div class="project-image">
+
                             <img class="img" src="maxresdefault.png" alt="">
+
                         </div>
+
                         <div class="project-info">
+
                             <h3>Creative Design</h3>
+
                             <p>UI/UX Project</p>
+
                         </div>
+
                     </div>
-                    <div class="project-card">
-                        <div class="project-image">
+
+                  <div class="project-card" onclick="window.open('https://trangwebcuaban.com', '_blank')">
+
+             <div class="project-image">
+
                             <img class="img" src="Screenshot_2025-06-21-19-13-24-336_com.android.chrome.jpg" alt="">
+
                         </div>
+
                         
+
                         <div class="project-info">
+
                             <h3>Web Development</h3>
+
                             <p>Alis Music My first web </p>
+
                         </div>
+
                     </div>
+
                     <div class="project-card">
+
                         <div class="project-image">
+
                             <img class="img" src="SENKAINATPIC.jpg" alt="">
+
                         </div>
+
                         <div class="project-info">
+
                             <h3>CLIENT SENKAINAT</h3>
+
                             <p>Client FF for Android</p>
+
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
+
 
             <!-- Contact Form with Animation -->
+
             <div class="contact-section">
+
                 <h2 class="section-title">Get in Touch</h2>
+
                 <form class="contact-form">
+
                     <div class="input-group">
+
                         <input type="text" required>
+
                         <label>Name</label>
+
                         <span class="highlight"></span>
+
                     </div>
+
                     
+
                     <div class="input-group">
+
                         <input type="email" required>
+
                         <label>Email</label>
+
                         <span class="highlight"></span>
+
                     </div>
+
                     
+
                     <div class="input-group">
+
                         <textarea required></textarea>
+
                         <label>Message</label>
+
                         <span class="highlight"></span>
+
                     </div>
+
                     
+
                     <button type="submit" class="submit-btn">
+
                         <span>Send Message</span>
+
                         <div class="btn-particles"></div>
+
                     </button>
+
                 </form>
+
             </div>
+
         </div>
+
     </div>
+
+
 
     <!-- Custom Cursor -->
+
     <div class="custom-cursor"></div>
+
     <div class="custom-cursor-outer"></div>
 
+
+
     <!-- Loading Screen -->
+
     <div class="loading-screen">
+
         <div class="loader">
+
             <svg viewBox="0 0 80 80">
+
                 <circle cx="40" cy="40" r="32"></circle>
+
             </svg>
+
         </div>
+
     </div>
+
 <!-- Scripts -->
+
     <script src="script.js"></script>
+
      <!-- Phát nhạc khi click -->
+
     <audio id="bg-music" src="nhacnen.mp3" loop></audio>
+
     <script>
+
       const music = document.getElementById("bg-music");
+
       document.addEventListener("click", () => {
+
         music.play().catch(err => {
+
           console.warn("Không thể phát nhạc:", err);
+
         });
+
       });
+
    </script>
+
    <!-- Hộp QR hiển thị -->
+
 <div id="qr-popup">
+
   <div class="popup-box">
+
     <span class="close-btn" onclick="hideQR()">×</span>
+
     <img src="momo-qr.png" alt="Mã QR MoMo">
+
   </div>
+
 </div>
+
 <script>
+
   // Gán click vào biểu tượng MoMo để mở hộp QR
+
   const momoBtn = document.querySelector(".social-link.zalo"); // sửa class nếu cần
+
   const popup = document.getElementById("qr-popup");
 
+
+
   momoBtn.addEventListener("click", function (e) {
+
     e.preventDefault();
+
     popup.style.display = "flex"; // dùng flex để căn giữa
+
   });
 
+
+
   // Hàm đóng popup
+
   function hideQR() {
+
     popup.style.display = "none";
+
   }
+
 </script>
+
           </body>
-          </html>
+
+</html>
